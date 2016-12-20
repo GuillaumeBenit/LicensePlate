@@ -1,6 +1,6 @@
 LicensePlate=LicensePlate or {}
 
-local LicensePlate_country=CreateClientConVar("LicensePlate_country","fr")
+local LicensePlate_country=CreateConVar("LicensePlate_country", "fr", {FCVAR_ARCHIVE, FCVAR_PROTECTED, FCVAR_SERVER_CAN_EXECUTE}, "Language of license plates")
 
 LicensePlate.lang=LicensePlate_country:GetString()
 
