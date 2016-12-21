@@ -1,7 +1,5 @@
 LicensePlate=LicensePlate or {}
 
-resource.AddWorkshop("781258788")
-
 function LicensePlate_lang()
 	for k,v in pairs(LicensePlate.langTable) do
 		if k==LicensePlate.lang then
