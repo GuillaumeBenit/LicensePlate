@@ -31,7 +31,7 @@ LicensePlate.ModelPlates={
 	},
 	
 	--[[----------
-	Renault
+		Renault
 	----------]]--
 	["models/lonewolfie/ren_meganers.mdl"]={
 		{	
@@ -43,6 +43,30 @@ LicensePlate.ModelPlates={
 			pos=Vector(0,-103.4,27.8),
 			ang=Angle(0,0,75),
 			scale=0.035,
+		},
+	},
+	["models/lonewolfie/ren_5turbo.mdl"]={
+		{  
+			pos=Vector(0,89,16.9),
+			ang=Angle(0,180,90),
+			scale=0.038,
+		},
+		{  
+			pos=Vector(0,-81.5,35.5),
+			ang=Angle(0,0,69.2),
+			scale=0.032,
+		},
+    },
+	["models/lonewolfie/renault_alpine.mdl"]={
+		{  
+			pos=Vector(0,99.9,14),
+			ang=Angle(0,180,90),
+			scale=0.025,
+		},
+		{  
+			pos=Vector(0,-93.8,20.5),
+			ang=Angle(0,0,99),
+			scale=0.022,
 		},
 	},
 	
@@ -173,6 +197,18 @@ LicensePlate.ModelPlates={
 			scale=0.035,
 		},
 	},
+	["models/lonewolfie/mercedes_190e_evo.mdl"]={
+        {  
+            pos=Vector(-20,109,19),
+            ang=Angle(0,190,90),
+            scale=0.035,
+        },
+        {  
+            pos=Vector(0,-104.75,32),
+            ang=Angle(0,0,80),
+            scale=0.0335,
+        },
+    },
 	
 	--[[----------
 		Volkswagen
@@ -265,4 +301,220 @@ LicensePlate.ModelPlates={
 			scale=0.035,
 		},
 	},
+	["models/tdmcars/ford_coupe_40.mdl"]={
+        {  
+            pos=Vector(0,112.1,19),
+            ang=Angle(0,180,90),
+            scale=0.033,
+        },
+        {  
+            pos=Vector(0,-113.68,21),
+            ang=Angle(0,0,90),
+            scale=0.033,
+        },
+    },
+	["models/tdmcars/for_f100.mdl"]={
+        {  
+            pos=Vector(0,117.6,18.5),
+            ang=Angle(0,180,90),
+            scale=0.042,
+        },
+        {  
+            pos=Vector(0,-118.25,17.5),
+            ang=Angle(0,0,90),
+            scale=0.045,
+        },
+    },
+	["models/tdmcars/focusrs.mdl"]={
+        {  
+            pos=Vector(0,100.73,23.08),
+            ang=Angle(0,180,90),
+            scale=0.031,
+        },
+        {  
+            pos=Vector(0,-102.4,38),
+            ang=Angle(0,0,85),
+            scale=0.033,
+        },
+    },
+	["models/tdmcars/for_focus_rs16.mdl"]={
+        {  
+            pos=Vector(0,106.1,28),
+            ang=Angle(0,180,90),
+            scale=0.033,
+        },
+        {  
+            pos=Vector(0,-100.58,46),
+            ang=Angle(0,0,77),
+            scale=0.039,
+        },
+    },
+	["models/tdmcars/gt05.mdl"]={
+        {  
+            pos=Vector(-13,109.5,25.91),
+            ang=Angle(-1.,185,30),
+            scale=0.022,
+        },
+        {  
+            pos=Vector(21,-111.91,23.5),
+            ang=Angle(0,1.5,110),
+            scale=0.028,
+        },
+    },
+    ["models/tdmcars/for_she_gt500.mdl"]={
+        {  
+            pos=Vector(0,111,20),
+            ang=Angle(0,180,90),
+            scale=0.035,
+        },
+        {  
+            pos=Vector(0,-112.61,34),
+            ang=Angle(0,0,90),
+            scale=0.04,
+        },
+    },
+    ["models/tdmcars/ford_transit.mdl"]={
+        {  
+            pos=Vector(0,121.64,27),
+            ang=Angle(0,180,90),
+            scale=0.033,
+        },
+        {  
+            pos=Vector(0,-111.5,41),
+            ang=Angle(0,0,80),
+            scale=0.034,
+        },
+    },
+	["models/lonewolfie/ford_falcon_xb.mdl"]={
+        {  
+            pos=Vector(0,115,20.4),
+            ang=Angle(0,180,90),
+            scale=0.025,
+        },
+        {  
+            pos=Vector(0,-118.2,24.8),
+            ang=Angle(0,0,75),
+            scale=0.022,
+        },
+    },
+
+	--[[----------
+		Dodge
+	----------]]--
+	["models/lonewolfie/dod_charger_70_fnf.mdl"]={
+        {  
+            pos=Vector(0,122.6,21.2),
+            ang=Angle(0,180,90),
+            scale=0.026,
+        },
+        {  
+            pos=Vector(0,-129,29),
+            ang=Angle(0,0,106),
+            scale=0.025,
+        },
+    },
+	["models/lonewolfie/dodge_ram_1500_outdoorsman.mdl"]={
+        {  
+            pos=Vector(0,149.19,31),
+            ang=Angle(0,180,90),
+            scale=0.05,
+        },
+        {  
+            pos=Vector(-0.40,-120,33),
+            ang=Angle(0,0,90),
+            scale=0.029,
+        },
+    },
+
+	--[[----------
+		Lamborghini
+	----------]]--
+	 ["models/lonewolfie/lam_reventon.mdl"]={
+        {  
+            pos=Vector(-13,117,22.6),
+            ang=Angle(-7.,200,30),
+            scale=0.025,
+        },
+        {  
+            pos=Vector(0,-102.8,31),
+            ang=Angle(0,0,68),
+            scale=0.035,
+        },
+    },
+	["models/lonewolfie/lam_huracan.mdl"]={
+        {  
+            pos=Vector(0,114.6,16),
+            ang=Angle(0,180,90),
+            scale=0.03,
+        },
+        {  
+            pos=Vector(0,-98.7,20),
+            ang=Angle(0,0,85),
+            scale=0.028,
+        },
+    },
+
+	--[[----------
+		Subaru
+	----------]]--
+	["models/lonewolfie/subaru_impreza_2004_impreza_2004.mdl"]={
+        {  
+            pos=Vector(0,107.7,22.5),
+            ang=Angle(0,180,90),
+            scale=0.032,
+        },
+        {  
+            pos=Vector(0,-104.8,22),
+            ang=Angle(0,0,90),
+            scale=0.034,
+        },
+    },
+
+	--[[----------
+		Honda
+	----------]]--
+	["models/lonewolfie/honda_nsxr.mdl"]={
+        {  
+            pos=Vector(0,111.4,21),
+            ang=Angle(0,180,90),
+            scale=0.03,
+        },
+        {  
+            pos=Vector(24,-113.1,26),
+            ang=Angle(0,0,90),
+            scale=0.030,
+        },
+    },
+
+	--[[----------
+		Porsche
+	----------]]--
+	["models/lonewolfie/porsche_911_rsr_74.mdl"]={
+        {  
+            pos=Vector(0,103.65,20),
+            ang=Angle(0,180,90),
+            scale=0.040,
+        },
+        {  
+            pos=Vector(0,-109.5,19),
+            ang=Angle(0,0,90),
+            scale=0.040,
+        },
+    },
+
+	--[[----------
+		Bugatti
+	----------]]--
+	 ["models/lonewolfie/bugatti_veyron_grandsport.mdl"]={
+        {  
+            pos=Vector(-31,102.47,22),
+            ang=Angle(0,205,73),
+            scale=0.03,
+        },
+        {  
+            pos=Vector(0,-109,28),
+            ang=Angle(0,0,90),
+            scale=0.023,
+        },
+    },
 }
