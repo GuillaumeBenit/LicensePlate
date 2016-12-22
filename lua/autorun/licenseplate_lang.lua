@@ -40,6 +40,12 @@ LicensePlate.langTable={
 		["SetTextColor"]=Color(0,0,0),
 		["SetTextPos"]={1.37,2},
 		["SetFontSize"]=125
+	},
+	["da"]={
+		["Texture"]="licenseplate/plate/dk.png",
+		["SetTextColor"]=Color(0,0,0),
+		["SetTextPos"]={2.25,2},
+		["SetFontSize"]=125
 	}
 }
 
@@ -62,6 +68,9 @@ function LicensePlate_plate(ply)
 	if LicensePlate.lang=="ru" then
 		return LicensePlate_rlet()..LicensePlate_id(ply)..LicensePlate_let(ply,10)..LicensePlate_let(ply,1)
 	end
+	if LicensePlate.lang=="da" then
+		return LicensePlate_let(ply,1)..LicensePlate_let(ply,10).." "..math.random(11,99).." "..LicensePlate_id(ply)
+	end
 	return "error"
 end
 
@@ -83,6 +92,9 @@ function LicensePlate_plate_npc(ply)
 	end
 	if LicensePlate.lang=="ru" then
 		return "▓"..LicensePlate_id(ply)..LicensePlate_let(ply,10)..LicensePlate_let(ply,1)
+	end
+	if LicensePlate.lang=="da" then
+		return LicensePlate_let(ply,1)..LicensePlate_let(ply,10).." ".."▓▓".." "..LicensePlate_id(ply)
 	end
 	return "error"
 end
