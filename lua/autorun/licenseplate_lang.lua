@@ -58,6 +58,12 @@ LicensePlate.langTable={
 		["SetTextColor"]=Color(0,0,0),
 		["SetTextPos"]={2.25,2},
 		["SetFontSize"]=125
+	},
+	["en"]={
+		["Texture"]="licenseplate/plate/en.png",
+		["SetTextColor"]=Color(0,0,0),
+		["SetTextPos"]={2,2},
+		["SetFontSize"]=125
 	}
 }
 
@@ -89,6 +95,9 @@ function LicensePlate_plate(ply)
 	if LicensePlate.lang=="sv" then
 		return LicensePlate_let(ply,1)..LicensePlate_let(ply,10)..LicensePlate_rlet().." "..LicensePlate_id(ply)
 	end
+	if LicensePlate.lang=="en" then
+		return math.random(1,9)..LicensePlate_let(ply,1)..LicensePlate_let(ply,10)..LicensePlate_rlet()..LicensePlate_id(ply)
+	end
 	return "error"
 end
 
@@ -119,6 +128,9 @@ function LicensePlate_plate_npc(ply)
 	end
 	if LicensePlate.lang=="sv" then
 		return LicensePlate_let(ply,1)..LicensePlate_let(ply,10).."▓".." "..LicensePlate_id(ply)
+	end
+	if LicensePlate.lang=="en" then
+		return "▓"..LicensePlate_let(ply,1)..LicensePlate_let(ply,10).."▓"..LicensePlate_id(ply)
 	end
 	return "error"
 end
