@@ -35,6 +35,11 @@ list.Set(
 				MenuButtonOptions:AddOption("Finland (fi)",function() RunConsoleCommand("LicensePlate_country","fi") Frame_restart() end)
 				MenuButtonOptions:AddOption("France (fr)",function() RunConsoleCommand("LicensePlate_country","fr") Frame_restart() end)
 				MenuButtonOptions:AddOption("Italia (it)",function() RunConsoleCommand("LicensePlate_country","it") Frame_restart() end)
+				MenuButtonOptions:AddOption("Россия (ru)",function() RunConsoleCommand("LicensePlate_country","ru") Frame_restart() end)
+				MenuButtonOptions:AddOption("Danmark (da)",function() RunConsoleCommand("LicensePlate_country","da") Frame_restart() end)
+				MenuButtonOptions:AddOption("Norge (nb)",function() RunConsoleCommand("LicensePlate_country","nb") Frame_restart() end)
+				MenuButtonOptions:AddOption("Sverige (sv)",function() RunConsoleCommand("LicensePlate_country","sv") Frame_restart() end)
+				MenuButtonOptions:AddOption("United States (en)",function() RunConsoleCommand("LicensePlate_country","en") Frame_restart() end)
 				MenuButtonOptions:AddOption("More soon...",function() end)
 				MenuButtonOptions:Open()
 			end
