@@ -38,6 +38,7 @@ list.Set(
 				MenuButtonOptions:AddOption("Россия (ru)",function() RunConsoleCommand("LicensePlate_country","ru") Frame_restart() end)
 				MenuButtonOptions:AddOption("Danmark (da)",function() RunConsoleCommand("LicensePlate_country","da") Frame_restart() end)
 				MenuButtonOptions:AddOption("Norge (nb)",function() RunConsoleCommand("LicensePlate_country","nb") Frame_restart() end)
+				MenuButtonOptions:AddOption("Sverige (sv)",function() RunConsoleCommand("LicensePlate_country","sv") Frame_restart() end)
 				MenuButtonOptions:AddOption("More soon...",function() end)
 				MenuButtonOptions:Open()
 			end
