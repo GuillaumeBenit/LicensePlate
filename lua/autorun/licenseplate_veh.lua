@@ -517,4 +517,85 @@ LicensePlate.ModelPlates={
             scale=0.023,
         },
     },
+	
+	--[[----------
+		BMW
+	----------]]--
+	 ["models/tdmcars/bmw_1m.mdl"]={
+    {  
+        pos=Vector(0,103.2,20),
+        ang=Angle(0,-180,95),
+        scale=0.03,
+    },
+    {  
+        pos=Vector(0,-99,38),
+        ang=Angle(0,0,90),
+        scale=0.03,
+    },
+},
+
+	 ["models/tdmcars/bmw507.mdl"]={
+    {  
+        pos=Vector(0,110.17,18),
+        ang=Angle(0,-180,95),
+        scale=0.03,
+    },
+    {  
+        pos=Vector(0,-104.9,29),
+        ang=Angle(0,0,90),
+        scale=0.03,
+    },
+},
+
+	 ["models/tdmcars/bmwm3e92.mdl"]={
+    {  
+        pos=Vector(0,110.22, 14.8),
+        ang=Angle(0,-180,95),
+        scale=0.03,
+    },
+    {  
+        pos=Vector(0,-105.8,32.5),
+        ang=Angle(0,0,90),
+        scale=0.03,
+    },
+},
+
+ 	["models/tdmcars/bmwm5e34.mdl"]={
+    {  
+        pos=Vector(0,115.5, 22.5),
+        ang=Angle(0,-180,95),
+        scale=0.03,
+    },
+    {  
+        pos=Vector(0,-110.8,39.25),
+        ang=Angle(0,0,90),
+        scale=0.03,
+    },
+},
+
+	 ["models/tdmcars/bmwm5e60.mdl"]={
+    {  
+        pos=Vector(0,115.585, 26),
+        ang=Angle(0,-180,95),
+        scale=0.03,
+    },
+    {  
+        pos=Vector(0,-113.945,28),
+        ang=Angle(0,0,90),
+        scale=0.03,
+    },
+},
+
+ 	["models/tdmcars/bmw_m6_13.mdl"]={
+    {  
+        pos=Vector(0,118, 30),
+        ang=Angle(0,-180,95),
+        scale=0.03,
+    },
+    {  
+        pos=Vector(0,-117.5,33),
+        ang=Angle(0,0,90),
+        scale=0.03,
+    },
+},
 }
